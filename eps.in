@@ -1,0 +1,14 @@
+&inputpp
+ outdir='./tmp'
+ prefix='FeS-194-AFM-ONCV'
+ calculation='eps'
+/
+&energy_grid
+ smeartype='gauss'
+ intersmear=0.01
+ intrasmear=0.01
+ wmax=15.1
+ wmin=0.1
+ nw=1501
+ shift=0
+/
