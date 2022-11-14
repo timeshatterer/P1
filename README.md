@@ -136,4 +136,8 @@ plt.ylabel("$\\epsilon_1~/~\\epsilon_2$")
 plt.legend(frameon=False)
 plt.show()
 ```
+
+nscf.in https://gist.github.com/timeshatterer/b70323431f617939ab148c68ecd00036
+eps.in https://gist.github.com/timeshatterer/a95ca857939a1a919b8877867a27be42
+
 ------------------------------------------------------------
