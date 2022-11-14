@@ -8,7 +8,7 @@ nscf.in
 Fe.upf(This depends on what pseudopotential you use)
 S.upf(This depends on what pseudopotential you use)
 
-
+```ASM:
 	nscf.in
 ------------------------------------------------------------
 &CONTROL
@@ -75,7 +75,7 @@ S       0.666669846         0.333330154         0.250000000
 K_POINTS automatic
    24 24 12   1 1 1
 ------------------------------------------------------------
-
+```
 
 Especially, notice the changes:
 
