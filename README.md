@@ -1,4 +1,4 @@
-Dielectric constant
+#Dielectric constant
 
 let's say we've done the calculations to the most stable structure.
 To begin with we need to perform our non self consistent field(nscf) calculation.
@@ -87,8 +87,8 @@ You have to turn off the automatic reduction of k-points that pw.x does by utili
 
 after you get the results of the nscf calculation, you'll be able proceed the process to the epsilon calculation. in here, we need the input for epsilon:
 
-eps.in
 
+```ASM:
 	eps.in
 ------------------------------------------------------------
 &inputpp
@@ -105,7 +105,7 @@ eps.in
  nw=601
  shift=0
 ------------------------------------------------------------
-
+```
 intersmear and intrasmear ...
 wmin wmax nw
 
@@ -113,7 +113,7 @@ after you get the results of the epsilon calculation, you'll be able proceed the
 
 epsilon.py
 
-
+```python:
 	epsilon.py
 ------------------------------------------------------------
 import matplotlib.pyplot as plt
@@ -135,4 +135,5 @@ plt.xlabel("Energy (eV)")
 plt.ylabel("$\\epsilon_1~/~\\epsilon_2$")
 plt.legend(frameon=False)
 plt.show()
+```
 ------------------------------------------------------------
