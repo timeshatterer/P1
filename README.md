@@ -1,6 +1,7 @@
 #Dielectric constant
 
-let's say we've done the calculations to the most stable structure.
+let's say we've done the calculations to the most stable structure. 
+at first, we have to do nscf calculation.
 To begin with we need to perform our non self consistent field(nscf) calculation.
 so get ready the filess as follows:
 
